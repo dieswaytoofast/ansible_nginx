@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: Mahesh Paolini-Subramanya (@dieswaytoofast)
+  description: Install and use nginx in docker
+  license: BSD
+  min_ansible_version: 2.
+  platforms:
+  - name: Ubuntu
+    versions:
+    - xenial
+  galaxy_tags:
+  - cloud
+  - docker
+  - nginx
+  - packaging
+  - system
+dependencies: []
