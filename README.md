@@ -2,6 +2,8 @@ Role Name
 =========
 
 Collection of utils to install and run [nginx](https://www.nginx.com/) in docker
+Note that the files in `sys` are wat you'll need to have in the playbooks that you'll be including ansible_nginx in
+(Look at [elk-docker](https://github.com/dieswaytoofast/elk-docker/tree/master/ansible/sys) for an example
 
 Requirements
 ------------
@@ -22,6 +24,7 @@ Dependencies
 ------------
 
 Probably docker :-)
+Oh. and weave.
 
 Example Playbook
 ----------------
